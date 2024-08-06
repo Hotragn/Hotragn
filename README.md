@@ -19,22 +19,23 @@
 
 - 📫 How to reach me **pettugani.h@northeastern.edu**
 <br>
-</br>
 
-<h3 align="left">Universe always falls in love with a stubborn heart:</h3>
-<pre><code>def pursue_goal(goal, max_attempts):
-      <br>
+### Universe always falls in love with a stubborn heart:
+```python
+def pursue_goal(goal, max_attempts):
+      
     for _ in range(max_attempts):
         analyze_situation()
         adapt_strategy()
         implement_changes()
-      <br>
+      
         if goal_achieved(goal):
             return True
     return False
-<br>
+
 desired_outcome = "∞"
-success = pursue_goal(desired_outcome, ∞)</code></pre>
+success = pursue_goal(desired_outcome, ∞)
+```
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
