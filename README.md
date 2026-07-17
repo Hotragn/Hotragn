@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/neural-network-animation.svg" width="100%" alt="Animated neural network — a forward pass pulsing left to right through input, hidden, and output layers" />
+  <img src="neural-network-animation.svg" width="100%" alt="Animated neural network — a forward pass pulsing left to right through input, hidden, and output layers" />
 </p>
 <p align="center"><sub>Live SVG, no video — layers pulse in sequence on an infinite loop. Source in <code>/assets</code>.</sub></p>
 
