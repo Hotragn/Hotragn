@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How I turn skills into shipped work</title>
+<style>
+  body { margin: 0; background: #05070d; display: flex; align-items: center; justify-content: center; min-height: 100vh; font-family: -apple-system, sans-serif; }
+  .wrap { max-width: 960px; width: 100%; padding: 24px; }
+  .diagram { width: 100%; }
+  .diagram svg { width: 100%; height: auto; display: block; }
+  figcaption { color: #64748b; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12px; text-align: center; margin-top: 10px; }
+
+  .node { transform-box: fill-box; transform-origin: center; animation: spot 4.8s ease-in-out infinite; }
+  .edge { fill: none; stroke-opacity: .1; animation: edgeSpot 4.8s ease-in-out infinite; }
+  .layer0 .node { animation-delay: 0s; }
+  .layer1 .node { animation-delay: 1.2s; }
+  .layer2 .node { animation-delay: 2.4s; }
+  .layer3 .node { animation-delay: 3.6s; }
+  .edge-to-1 { animation-delay: 1.2s; }
+  .edge-to-2 { animation-delay: 2.4s; }
+  .edge-to-3 { animation-delay: 3.6s; }
+
+  @keyframes spot {
+    0%, 18% { transform: scale(1.3); opacity: 1; }
+    27%, 95% { transform: scale(0.8); opacity: 0.28; }
+    100% { transform: scale(1.3); opacity: 1; }
+  }
+  @keyframes edgeSpot {
+    0%, 18% { stroke-opacity: 0.55; }
+    27%, 95% { stroke-opacity: 0.05; }
+    100% { stroke-opacity: 0.55; }
+  }
+
+  .plabel { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 9.5px; fill: #cbd5e1; transition: opacity .35s; }
+  .cat { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 12px; fill: #64748b; letter-spacing: 1.5px; transition: opacity .35s; }
+  .pchip { transition: opacity .35s; }
+  .tag { font-family: 'SFMono-Regular', Consolas, monospace; font-size: 11px; fill: #3b4657; }
+  .hit { cursor: pointer; }
+
+  .node { transition: transform .35s ease, opacity .35s ease; }
+  .edge { transition: stroke-opacity .35s ease; }
+
+  .diagram:has(.hit:hover) .node { animation-play-state: paused; opacity: .18; transform: scale(.72); }
+  .diagram:has(.hit:hover) .edge { animation-play-state: paused; stroke-opacity: .03; }
+  .diagram:has(.hit:hover) .plabel, .diagram:has(.hit:hover) .pchip, .diagram:has(.hit:hover) .cat { opacity: .22; }
+
+  .diagram:has(.hit0:hover) .layer0 .node { opacity: 1; transform: scale(1.35); }
+  .diagram:has(.hit0:hover) .edge-to-1 { stroke-opacity: .65; }
+  .diagram:has(.hit0:hover) .l0-label { opacity: 1; }
+
+  .diagram:has(.hit1:hover) .layer1 .node { opacity: 1; transform: scale(1.35); }
+  .diagram:has(.hit1:hover) .edge-to-1, .diagram:has(.hit1:hover) .edge-to-2 { stroke-opacity: .65; }
+  .diagram:has(.hit1:hover) .l1-label { opacity: 1; }
+
+  .diagram:has(.hit2:hover) .layer2 .node { opacity: 1; transform: scale(1.35); }
+  .diagram:has(.hit2:hover) .edge-to-2, .diagram:has(.hit2:hover) .edge-to-3 { stroke-opacity: .65; }
+  .diagram:has(.hit2:hover) .l2-label { opacity: 1; }
+
+  .diagram:has(.hit3:hover) .layer3 .node { opacity: 1; transform: scale(1.35); }
+  .diagram:has(.hit3:hover) .edge-to-3 { stroke-opacity: .65; }
+  .diagram:has(.hit3:hover) .l3-label { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <figure class="diagram">
+    <svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Interactive diagram, hover a column to spotlight one layer">
+<defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#111827"/><stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+<rect width="900" height="420" rx="18" fill="url(#bgGlow)"/>
+<rect x="0.5" y="0.5" width="899" height="419" rx="18" fill="none" stroke="#1f2937"/>
+<rect class="hit hit0" x="20" y="0" width="200" height="420" fill="transparent"/>
+<rect class="hit hit1" x="220" y="0" width="240" height="420" fill="transparent"/>
+<rect class="hit hit2" x="460" y="0" width="240" height="420" fill="transparent"/>
+<rect class="hit hit3" x="700" y="0" width="180" height="420" fill="transparent"/>
+<g class="edges">
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="50.0" x2="340" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="156.7" x2="340" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="263.3" x2="340" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-1" x1="100" y1="370.0" x2="340" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="50.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="114.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="178.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="242.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="306.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="114.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="178.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="242.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="306.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-2" x1="340" y1="370.0" x2="580" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="50.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="50.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="50.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="114.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="114.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="114.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="178.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="178.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="178.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="242.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="242.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="242.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="306.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="306.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="306.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="370.0" x2="800" y2="50.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="370.0" x2="800" y2="210.0" stroke="#3b82f6" stroke-width="1"/>
+<line class="edge edge-to-3" x1="580" y1="370.0" x2="800" y2="370.0" stroke="#3b82f6" stroke-width="1"/>
+</g>
+<g class="signal">
+<circle r="4.5" fill="#e0f2fe" filter="url(#softGlow)">
+      <animate attributeName="cx" values="100.0;100.0;340.0;340.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="0.0s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="156.7;156.7;178.0;178.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="0.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.22;0.27;0.30;1" dur="4.8s" begin="0.0s" repeatCount="indefinite"/>
+    </circle>
+<circle r="4.5" fill="#e0f2fe" filter="url(#softGlow)">
+      <animate attributeName="cx" values="340.0;340.0;580.0;580.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="178.0;178.0;178.0;178.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.22;0.27;0.30;1" dur="4.8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+<circle r="4.5" fill="#e0f2fe" filter="url(#softGlow)">
+      <animate attributeName="cx" values="580.0;580.0;800.0;800.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="178.0;178.0;210.0;210.0" keyTimes="0;0.20;0.27;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.18;0.22;0.27;0.30;1" dur="4.8s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+</g>
+<g class="layer0">
+<circle class="node" cx="100" cy="50.0" r="9" fill="#60a5fa" filter="url(#softGlow)"/>
+<circle class="node" cx="100" cy="156.7" r="9" fill="#60a5fa" filter="url(#softGlow)"/>
+<circle class="node" cx="100" cy="263.3" r="9" fill="#60a5fa" filter="url(#softGlow)"/>
+<circle class="node" cx="100" cy="370.0" r="9" fill="#60a5fa" filter="url(#softGlow)"/>
+</g>
+<text class="cat l0-label" x="100" y="402" text-anchor="middle">SKILLS</text>
+<text class="plabel l0-label" x="82.0" y="53.0" text-anchor="end">Python</text>
+<text class="plabel l0-label" x="82.0" y="159.7" text-anchor="end">Neo4j</text>
+<text class="plabel l0-label" x="82.0" y="266.3" text-anchor="end">LangChain</text>
+<text class="plabel l0-label" x="82.0" y="373.0" text-anchor="end">React</text>
+<g class="layer1">
+<circle class="node" cx="340" cy="50.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+<circle class="node" cx="340" cy="114.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+<circle class="node" cx="340" cy="178.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+<circle class="node" cx="340" cy="242.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+<circle class="node" cx="340" cy="306.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+<circle class="node" cx="340" cy="370.0" r="9" fill="#a78bfa" filter="url(#softGlow)"/>
+</g>
+<text class="cat l1-label" x="340" y="402" text-anchor="middle">PROCESS</text>
+<rect class="pchip l1-label" x="351.0" y="42.0" width="36.5" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="53.0" text-anchor="start">Build</text>
+<rect class="pchip l1-label" x="351.0" y="106.0" width="31.2" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="117.0" text-anchor="start">Test</text>
+<rect class="pchip l1-label" x="351.0" y="170.0" width="41.8" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="181.0" text-anchor="start">Verify</text>
+<rect class="pchip l1-label" x="351.0" y="234.0" width="31.2" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="245.0" text-anchor="start">Ship</text>
+<rect class="pchip l1-label" x="351.0" y="298.0" width="47.1" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="309.0" text-anchor="start">Measure</text>
+<rect class="pchip l1-label" x="351.0" y="362.0" width="47.1" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l1-label" x="356.0" y="373.0" text-anchor="start">Iterate</text>
+<g class="layer2">
+<circle class="node" cx="580" cy="50.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+<circle class="node" cx="580" cy="114.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+<circle class="node" cx="580" cy="178.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+<circle class="node" cx="580" cy="242.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+<circle class="node" cx="580" cy="306.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+<circle class="node" cx="580" cy="370.0" r="9" fill="#22d3ee" filter="url(#softGlow)"/>
+</g>
+<text class="cat l2-label" x="580" y="402" text-anchor="middle">DOMAINS</text>
+<rect class="pchip l2-label" x="591.0" y="42.0" width="57.7" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="53.0" text-anchor="start">Graph-RAG</text>
+<rect class="pchip l2-label" x="591.0" y="106.0" width="68.3" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="117.0" text-anchor="start">Multi-agent</text>
+<rect class="pchip l2-label" x="591.0" y="170.0" width="63.0" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="181.0" text-anchor="start">Full-stack</text>
+<rect class="pchip l2-label" x="591.0" y="234.0" width="41.8" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="245.0" text-anchor="start">Vision</text>
+<rect class="pchip l2-label" x="591.0" y="298.0" width="63.0" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="309.0" text-anchor="start">Data infra</text>
+<rect class="pchip l2-label" x="591.0" y="362.0" width="57.7" height="14" rx="6" fill="#05070d" fill-opacity="0.72"/>
+<text class="plabel l2-label" x="596.0" y="373.0" text-anchor="start">Dev tools</text>
+<g class="layer3">
+<circle class="node" cx="800" cy="50.0" r="10" fill="#34d399" filter="url(#softGlow)"/>
+<circle class="node" cx="800" cy="210.0" r="10" fill="#34d399" filter="url(#softGlow)"/>
+<circle class="node" cx="800" cy="370.0" r="10" fill="#34d399" filter="url(#softGlow)"/>
+</g>
+<text class="cat l3-label" x="800" y="402" text-anchor="middle">OUTCOMES</text>
+<text class="plabel l3-label" x="818.0" y="53.0" text-anchor="start">Products</text>
+<text class="plabel l3-label" x="818.0" y="213.0" text-anchor="start">Papers</text>
+<text class="plabel l3-label" x="818.0" y="373.0" text-anchor="start">Talks</text>
+<text class="tag" x="24" y="30">// idea in, product out. hover a column</text>
+</svg>
+    <figcaption>hover skills, process, domains, or outcomes to spotlight that layer. leave it alone and it cycles on its own.</figcaption>
+  </figure>
+</div>
+</body>
+</html>
