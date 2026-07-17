@@ -1,6 +1,15 @@
 # Hotragn Pettugani
 
-**AI Engineer building agents, graph-RAG systems, and products with live users** · CTO @ Future Median · M.S. Information Systems, Northeastern University
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=AI+Engineer+building+agents+%2B+graph-RAG+systems;CTO+at+Future+Median;Ships+tested%2C+not+just+demoed" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="assets/neural-network-animation.svg" width="100%" alt="Animated neural network — a forward pass pulsing left to right through input, hidden, and output layers" />
+</p>
+<p align="center"><sub>Live SVG, no video — layers pulse in sequence on an infinite loop. Source in <code>/assets</code>.</sub></p>
+
+CTO @ Future Median · M.S. Information Systems, Northeastern University
 
 [Portfolio](https://hotragnai.vercel.app/) · [Resume](https://hotragnai.vercel.app/assets/resume/Hotragn_Pettugani_Resume.pdf) · [GitHub](https://github.com/hotragn) · [LinkedIn](https://linkedin.com/in/hotragn-pettugani)
 
@@ -102,6 +111,21 @@ Multi-agent disruption detection and automated recovery on Elastic Agent Builder
 
 ## 🧰 Skills
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,react,nextjs,ts,nodejs,fastapi,rust,tauri,docker,kubernetes,aws,gcp,azure,postgres,mongodb,redis,firebase,vercel,figma,tailwind,git,githubactions&perline=12" alt="Core stack icons" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow"/>
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" alt="Snowflake"/>
+  <img src="https://img.shields.io/badge/Model_Context_Protocol-111827?style=for-the-badge" alt="MCP"/>
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F61?style=for-the-badge" alt="ChromaDB"/>
+</p>
+
 | Category | Stack |
 |---|---|
 | **AI / Agents / RAG** | LangChain, LangGraph, Google ADK, Claude & OpenAI APIs, Graph-RAG, Neo4j/Cypher, ChromaDB, MCP, MLflow, LangSmith, TensorFlow, PyTorch, OpenCV |
@@ -140,4 +164,11 @@ Multi-agent disruption detection and automated recovery on Elastic Agent Builder
 
 ## 📊 GitHub Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=hotragn&layout=compact&langs_count=8&theme=default)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hotragn&layout=compact&langs_count=8&theme=tokyonight" alt="Top languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hotragn&theme=tokyonight" alt="Streak stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hotragn&theme=tokyonight&no-frame=true&column=4" alt="Trophies" />
+</p>
