@@ -1,69 +1,143 @@
-[![MasterHead](https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg)](https://hotragn-portfolio.netlify.app/)
-<h1 align="center">Hi 👋, I'm Hotragn Pettugani</h1>
-<h3 align="center">A dynamic tech enthusiast with a strong foundation in Data Science and Artificial Intelligence, currently advancing my expertise through a Master’s in Information Systems at Northeastern University.</h3>
-<h4 align="center">I would like to collaborate/contribute for potential outcomes.</h4>
+# Hotragn Pettugani
 
-<img align="right" alt="Coding" width="400" src="https://gifdb.com/images/high/animated-chock-coding-c78f6elj32sfoi8q.gif">
+**AI Engineer building agents, graph-RAG systems, and products with live users** · CTO @ Future Median · M.S. Information Systems, Northeastern University
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hotragn&label=Profile%20views&color=0e75b6&style=flat" alt="hotragn" /> </p>
+[Portfolio](https://hotragnai.vercel.app/) · [Resume](https://hotragnai.vercel.app/assets/resume/Hotragn_Pettugani_Resume.pdf) · [GitHub](https://github.com/hotragn) · [LinkedIn](https://linkedin.com/in/hotragn-pettugani)
 
+---
 
+## About
 
-<p align="left"> <a href="https://twitter.com/hotragn" target="blank"><img src="https://img.shields.io/twitter/follow/hotragn?logo=twitter&style=for-the-badge" alt="hotragn" /></a> </p>
+I ship AI systems that earn trust through verification, not vibes — agents with their own gates, RAG pipelines graded on accuracy rather than demo polish. Currently CTO at **Future Median**, a nonprofit closing the healthcare-education gap, architecting the platform on Next.js, three.js, Supabase, and open-source LLMs. Along the way: 43 public repos, two peer-reviewed papers, one registered software copyright, and a KGC 2026 poster-session win.
 
-- 🌱 I’m currently learning **TypeScript, FireBase, Software Engineering**
+---
 
-- 👨‍💻 Take a small peak on my portfolio [https://hotragn-portfolio.netlify.app/](https://hotragn-portfolio.netlify.app/)
+## 💼 Featured Work
 
-- 📝 I regularly write articles on [https://medium.com/@hotragn.vaishyas, https://pettugani.hashnode.dev/data-science-riding-the-wave-of-innovation]
+Real repos, real metrics — every number below is from a shipped project.
 
+### TravelGraph-AI — Graph-RAG travel intelligence
+`Neo4j` `Snowflake Cortex` `LangChain` `Streamlit` `Plotly`
+Grounds Llama 3 over a 57,877-node Neo4j knowledge graph (19,883 attractions, 352 cities). A triple-validation pipeline blocks invalid Cypher before execution, holding **74% accuracy** in query generation across six interfaces. **KGC 2026 poster-session winner.**
+[Repo](https://github.com/Hotragn/TravelGraph-AI)
 
-- 📫 How to reach me **pettugani.h@northeastern.edu**
-<br>
+### H.O.T Earth — a living digital twin
+`Next.js 15` `three.js` `NASA GIBS` `NOAA GFS`
+Real NASA satellite imagery, a physically-computed day/night terminator, animated global wind from live GFS data, and 1,200 real cities lighting up as the terminator crosses them — plus a Mars twin and a 6,000-year city-growth time machine.
+[Live demo](https://h-o-t-earth.vercel.app) · [Repo](https://github.com/Hotragn/H.O.T-EARTH)
 
-### Universe always falls in love with a stubborn heart:
-```python
-def pursue_goal(goal, max_attempts):
-      
-    for _ in range(max_attempts):
-        analyze_situation()
-        adapt_strategy()
-        implement_changes()
-      
-        if goal_achieved(goal):
-            return True
-    return False
+### SprintMind AI — multi-agent Agile coach
+`Google ADK` `Gemini 2.5 Flash` `Cloud Run` `SQLite`
+Four specialized agents collaborate on sprint planning, standups, and retros over real sprint data instead of gut feel. Ships with 30 passing tests.
+[Live demo](https://sprintmind-ai-54480702073.us-central1.run.app) · [Repo](https://github.com/Hotragn/sprintmind-ai)
 
-desired_outcome = "∞"
-success = pursue_goal(desired_outcome, ∞)
-```
+### H.O.T Jarvis — a desktop AI that grows its own skills
+`Tauri v2` `Rust` `React` `Ollama` `SQLite`
+Local-first assistant: ask it to build a new skill and it writes sandboxed code *plus a test*, proves it by running the test, and refines on failure. Prefers local Ollama, falls back to free cloud tiers. Ships fully open source.
+[Repo](https://github.com/Hotragn/H.O.T-Jarvis)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/hotragn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="hotragn" height="30" width="40" /></a>
-<a href="https://twitter.com/hotragn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hotragn" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/hotragn-pettugani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hotragn-pettugani" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/21487408" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="21487408" height="30" width="40" /></a>
-<a href="https://kaggle.com/hotragn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="hotragn" height="30" width="40" /></a>
-<a href="https://fb.com/hotru pettugani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="hotru pettugani" height="30" width="40" /></a>
-<a href="https://instagram.com/hotragn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hotragn" height="30" width="40" /></a>
-<a href="https://hashnode.com/hotragn pettugani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="hotragn pettugani" height="30" width="40" /></a>
-<a href="https://medium.com/@hotragn pettugani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@hotragn pettugani" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@hotragn_vaishyas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@hotragn_vaishyas" height="30" width="40" /></a>
-<a href="https://discord.gg/Je6akCgE" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Je6akCgE" height="30" width="40" /></a>
-</p>
+### HuskyBot — campus AI assistant
+`Next.js` `OpenAI` `Firebase` `Tailwind`
+Customizable response style, language, and length. Tested with **500+ students** on campus, reaching **95% query-resolution accuracy**.
+[Live demo](https://huskybot.vercel.app)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://cassandra.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg" alt="cassandra" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-<br></br>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hotragn&show_icons=true&locale=en&layout=compact" alt="hotragn" /></p>
-<br></br>
-<br></br>
-<br></br>
-<br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hotragn&show_icons=true&locale=en" alt="hotragn" /></p>
+### SupplyShield — multi-agent supply-chain defense
+`Elastic Agent Builder` `MCP` `Python`
+Multi-agent disruption detection and automated recovery on Elastic Agent Builder, wired together with the Model Context Protocol — built against a problem measured in **$184B** of annual global disruption cost. Built for Elastic Hackathon 2026.
+[Repo](https://github.com/Hotragn/supplyshield)
 
+<details>
+<summary><b>More shipped work</b> (9 more projects — click to expand)</summary>
 
+| Project | What it does |
+|---|---|
+| [QuizLab / PromptShield](https://github.com/Hotragn/PromptShield-Coursework) | Grounded study companion — RAG over ChromaDB with explicit prompt-injection defenses |
+| [KothaNirmata AI](https://github.com/Hotragn/kotha-nirmata-ai) | Turns one content idea into platform-tuned titles, tags, hashtags — [live demo](https://kotha-nirmata-ai-306085768912.us-central1.run.app) |
+| ICAKS | Distraction-free reading tool — DOM scraper + DistilBART real-time summarization, sub-100ms cached retrieval. Registered copyright, Govt. of India, L-150423/2024 |
+| [Career Guidance System](https://github.com/Hotragn/Career-Guidance-System) | Job-role classifier (XGBoost/SVM/RF + SMOTE), 78%→85% accuracy, tracked in MLflow; dataset published open-access on Zenodo |
+| Fingerprint Reconstruction | Convolutional autoencoder enhancing latent-print minutiae; training cut from 200 to 89 epochs via augmentation |
+| PantryNex / SmartSummarize / TravelHub | Pantry management, one-click article summarization, and travel discovery — all deployed and live (TypeScript/React) |
+| BrewDash + AstroDash | Brewery-analytics and astronomy dashboards — React, live charts |
+| Autonomous Defense Robot | Swarm bot in C/Arduino — sensor + vision obstacle avoidance and IoT monitoring, built when robotics wasn't in the curriculum |
+| UI/UX Design Portfolio | Figma/Webflow/Framer case studies — Family Foundations app, Notion redesign, Rare Rabbit redesign |
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hotragn&" alt="hotragn" /></p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hotragn" alt="hotragn" /></a> </p>
+</details>
+
+---
+
+## 🏆 Awards & Recognition
+
+- **Knowledge Graph Conference (KGC) 2026** — Poster Session Winner, for *TravelGraph-AI* (Cornell Tech, NYC)
+
+## 🎤 Speaking & Community
+
+- **Knowledge Graph Conference (KGC) 2026** — Lightning talk + live demo accompanying the winning poster
+- **CAEBL 2026** (Conference for Advancing Evidence-Based Learning) — Speaker, Northeastern University
+- **GSDC** (Global Skill Development Council) — Speaker
+- Founder & Captain, AWS Builders Club @ Northeastern · Technical Lead, Google Developer Group on Campus · Track Lead, MentorMe Collective
+
+## 🔓 Open Source
+
+- 43 public repositories · GitHub **Pull Shark ×2** and **Pair Extraordinaire ×2** achievements (merged PRs into other people's repos, paired on code with others)
+- [H.O.T Jarvis](https://github.com/Hotragn/H.O.T-Jarvis) ships fully in the open — a self-extending local AI assistant that writes and tests its own new skills
+
+---
+
+## 📄 Research & Publications
+
+- **Exploring data augmentation strategies for labeled-data enrichment in low-resource language fine-tuning of LLMs** — *IRJET*, vol. 10, no. 11, 2023, pp. 761–774
+- **Navigating the Digital Realm: the risk-management lifecycle in information security, cybercrime, and cyber-stalking** — *IJRPR*, vol. 4, no. 12, 2023, pp. 1300–1304 · [DOI 10.55248/gengpi.4.1223.123411](https://doi.org/10.55248/gengpi.4.1223.123411)
+- **Intelligent Content Aggregator and Knowledge Synthesizer (ICAKS)** — registered copyright, Copyright Office, Government of India, L-150423/2024
+- **Job Prediction based on Skills and Years of Experience** — open dataset, published on Zenodo
+
+## ✍️ Writing
+
+- [Data Science: Riding the Wave of Innovation](https://pettugani.hashnode.dev/data-science-riding-the-wave-of-innovation) — Hashnode
+- [Career Guidance System for Predicting the Job Role Using Machine Learning](https://medium.com/@hotragn/career-guidance-system-for-predicting-the-job-role-using-machine-learning-bf4368b9f170) — Medium
+- [Rethinking the E-Commerce Shopping Cart: A UX/UI Design Plan](https://medium.com/@hotragn/rethinking-the-e-commerce-shopping-cart-a-ux-ui-design-plan-8177c73e55a1) — Medium
+
+[All posts on Medium →](https://medium.com/@hotragn) · [All posts on Hashnode →](https://pettugani.hashnode.dev/)
+
+---
+
+## 🧰 Skills
+
+| Category | Stack |
+|---|---|
+| **AI / Agents / RAG** | LangChain, LangGraph, Google ADK, Claude & OpenAI APIs, Graph-RAG, Neo4j/Cypher, ChromaDB, MCP, MLflow, LangSmith, TensorFlow, PyTorch, OpenCV |
+| **Languages & Frameworks** | Python, TypeScript/JavaScript, SQL, Java, React/Next.js, FastAPI, Node.js, Streamlit, Tauri (Rust), Salesforce Apex |
+| **Data & Cloud** | PostgreSQL, MongoDB, SQLite, Snowflake, Redis, AWS/ECS, GCP (Cloud Run, Vertex AI), Azure, Docker, Kubernetes, GitHub Actions, Vercel, Firebase |
+| **Product & Design** | Figma, Webflow, Framer, wireframe → hi-fi, usability testing, A/B testing, Agile/Scrum |
+
+---
+
+## 🧭 Experience highlights
+
+| Role | Where | Highlight |
+|---|---|---|
+| CTO | Future Median (Nonprofit) | Architecting the platform: Next.js/three.js/Supabase, AI-first |
+| Graduate Research Assistant | Northeastern University | Cut data prep 70%, processing 85%; 83% unbiased entity matching at scale |
+| Software Engineering Fellow | Foruppo | 40% lower sync latency, Lighthouse 65→91, led a cross-functional build |
+| Developer Intern | Salesforce, Hyderabad | Apex code coverage 80% → 100% |
+| Research Intern | AppsTek Corp | Capacitated VRP engine — routes ~9% shorter, sub-1-second planning |
+
+[Full experience & education →](https://hotragnai.vercel.app/)
+
+---
+
+## 🔗 Connect
+
+**Reach out:** [pettugani.h@northeastern.edu](mailto:pettugani.h@northeastern.edu) — always glad to talk agents, knowledge graphs, or making AI genuinely useful inside an organization.
+
+| | | |
+|---|---|---|
+| [Portfolio](https://hotragnai.vercel.app/) | [GitHub](https://github.com/hotragn) | [LinkedIn](https://linkedin.com/in/hotragn-pettugani) |
+| [Medium](https://medium.com/@hotragn) | [Hashnode](https://pettugani.hashnode.dev/) | [Dev.to](https://dev.to/hotragn) |
+| [Twitter/X](https://twitter.com/hotragn) | [Stack Overflow](https://stackoverflow.com/users/21487408) | [Kaggle](https://kaggle.com/hotragn) |
+| [HackerEarth](https://www.hackerearth.com/@hotragn_vaishyas) | [Resume (PDF)](https://hotragnai.vercel.app/assets/resume/Hotragn_Pettugani_Resume.pdf) | |
+
+---
+
+## 📊 GitHub Stats
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=hotragn&layout=compact&langs_count=8&theme=default)
