@@ -1,7 +1,7 @@
 # Hotragn Pettugani
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=AI+Engineer+building+agents+%2B+graph-RAG+systems;CTO+at+Future+Median;Ships+tested%2C+not+just+demoed" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=AI+Engineer+building+agents+%2B+graph-RAG+systems;Ships+tested%2C+not+just+demoed" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 <p align="center"><sub>Live SVG, no video — layers pulse in sequence on an infinite loop. Source in <code>/assets</code>.</sub></p>
 
-CTO @ Future Median · M.S. Information Systems, Northeastern University
+Independent Developer · M.S. Information Systems, Northeastern University
 
 [Portfolio](https://hotragnai.vercel.app/) · [Resume](https://hotragnai.vercel.app/assets/resume/Hotragn_Pettugani_Resume.pdf) · [GitHub](https://github.com/hotragn) · [LinkedIn](https://linkedin.com/in/hotragn-pettugani)
 
@@ -17,7 +17,7 @@ CTO @ Future Median · M.S. Information Systems, Northeastern University
 
 ## About
 
-I ship AI systems that earn trust through verification, not vibes — agents with their own gates, RAG pipelines graded on accuracy rather than demo polish. Currently CTO at **Future Median**, a nonprofit closing the healthcare-education gap, architecting the platform on Next.js, three.js, Supabase, and open-source LLMs. Along the way: 43 public repos, two peer-reviewed papers, one registered software copyright, and a KGC 2026 poster-session win.
+I ship AI systems that earn trust through verification, not vibes — agents with their own gates, RAG pipelines graded on accuracy rather than demo polish. Along the way: 43 public repos, two peer-reviewed papers, one registered software copyright, and a KGC 2026 poster-session win.
 
 ---
 
